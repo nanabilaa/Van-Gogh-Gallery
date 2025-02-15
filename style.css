@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    background-color: rgb(229, 162, 255);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  img {
+    height: 700px;
+    width: 700px;
+  }
+  body {
+    background: linear-gradient(to right, #081483, #7dadec);
+  }
+  
+  .container {
+    overflow: hidden;
+  }
+  .kata {
+    display: flex;
+    gap: 3 rem;
+    padding: 1 rem;
+    animation: infinite-scroll 5s linear infinite;
+  }
+  
+  /* @keyframes inifinite-scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  } */
+  
+  a {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .ini-satu {
+    text-align: center;
+    border-style: double;
+  }
+  .ini-dua {
+    text-align: center;
+    border-style: double;
+  }
+  .ini-tiga {
+    text-align: center;
+    border-style: double;
+  }
+  .ini-empat {
+    text-align: center;
+    border-style: double;
+  }
+  .dropdown-menu {
+    background-color: #162294;
+  }
