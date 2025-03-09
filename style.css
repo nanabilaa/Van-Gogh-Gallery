@@ -21,6 +21,7 @@ h1 {
     animation: infinite-scroll 5s linear infinite;
   }
   
+  
   /* @keyframes inifinite-scroll {
     from {
       transform: translateX(0);
